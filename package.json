@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/FormulaPages/sum#readme",
   "dependencies": {
-    "formula-flatten": "^1.0.0"
+    "formula-flatten": "^1.0.1"
   }
 }
