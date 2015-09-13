@@ -7,7 +7,7 @@
         var mod = {
             exports: {}
         };
-        factory(mod.exports, mod, global.flatten);
+        factory(mod.exports, mod, global.FLATTEN);
         global.SUM = mod.exports;
     }
 })(this, function (exports, module, _formulaFlatten) {
@@ -17,10 +17,10 @@
 
     function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-    var _flatten = _interopRequireDefault(_formulaFlatten);
+    var _FLATTEN = _interopRequireDefault(_formulaFlatten);
 
     function SUM() {
-        var numbers = (0, _flatten['default'])(arguments);
+        var numbers = (0, _FLATTEN['default'])(arguments);
         return numbers.reduce(function (a, b) {
             return a + b;
         });

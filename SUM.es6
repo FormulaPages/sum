@@ -1,7 +1,7 @@
 
-import flatten from 'formula-flatten';
+import FLATTEN from 'formula-flatten';
 
 export default function SUM() {
-    var numbers = flatten(arguments);
+    var numbers = FLATTEN(arguments);
     return numbers.reduce((a, b) => a + b);
 }

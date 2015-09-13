@@ -1,13 +1,15 @@
 #+TITLE: formula-sum
 
 #+BEGIN_SRC js :tangle SUM.es6
-  import flatten from 'formula-flatten';
+  import FLATTEN from 'formula-flatten';
 
   export default function SUM() {
-      var numbers = flatten(arguments);
+      var numbers = FLATTEN(arguments);
       return numbers.reduce((a, b) => a + b);
   }
 #+END_SRC
+
+#+RESULTS:
 
 #+BEGIN_SRC sh :exports none
   babel SUM.es6 -m umd --out-file index.js
