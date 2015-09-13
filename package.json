@@ -1,0 +1,22 @@
+{
+  "name": "formula-sum",
+  "version": "1.0.0",
+  "description": "SUM function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/sum.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/sum/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/sum#readme",
+  "dependencies": {
+    "formula-flatten": "^1.0.0"
+  }
+}
