@@ -21,7 +21,7 @@
 
     function SUM() {
         var numbers = (0, _flatten['default'])(arguments);
-        return result.reduce(numbers, function (a, b) {
+        return numbers.reduce(function (a, b) {
             return a + b;
         });
     }
